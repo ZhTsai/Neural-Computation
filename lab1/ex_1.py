@@ -35,6 +35,6 @@ def both_ends(s):
         
     # add your code here
 aa = 'abcde'
-print(aa[-3:-1])
-print(aa[-2:])
+# print(aa[-3:-1])
+# print(aa[-2:])
 print(both_ends('abcde'))
