@@ -5,12 +5,15 @@ Created on Thu Jan 28 14:55:09 2021
 @author: 11647
 """
 
-# Given a list of strings, return a list with the strings in sorted order, except group all the strings that begin with 'x' first.
+"""
+Given a list of strings, return a list with the strings in sorted order, 
+except group all the strings that begin with 'x' first.
 
-# For example,
+For example,
 
-# ['mix','xyz','apple','xanadu','aardvark'] yields ['xanadu','xyz','aardvark','apple','mix'].
-# Hint: this can be done by making two lists and sorting each of them before combining them.
+['mix','xyz','apple','xanadu','aardvark'] yields ['xanadu','xyz','aardvark','apple','mix'].
+Hint: this can be done by making two lists and sorting each of them before combining them.
+"""
 
 def front_x(words):
     x_list = []
@@ -20,10 +23,9 @@ def front_x(words):
             x_list.append(string)
         else:
             nor_list.append(string)
-#totally wrong!!!!!!!!
-#a block of shit!!!!!!!!!!!!
-    # add your code here
-    return x_list +nor_list
+
+
+    return sorted(x_list) + sorted(nor_list)
 
 # correct answer
 # def front_x(words):
