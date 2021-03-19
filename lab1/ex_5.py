@@ -5,9 +5,12 @@ Created on Thu Jan 28 15:44:59 2021
 @author: 11647
 """
 
-# Given two lists sorted in increasing order, create and return a merged list of all the elements in sorted order.
+"""
+Given two lists sorted in increasing order, create and return a merged list of 
+all the elements in sorted order.
 
-# You may modify the passed in lists.
+You may modify the passed in lists.
+"""
 
 def linear_merge(list1, list2):
     list3 = list1 + list2
